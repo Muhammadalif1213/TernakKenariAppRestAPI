@@ -15,7 +15,7 @@ class ServicesHttpClient {
         url,
         headers: {
           'Accept': 'application/json',
-          'content-type': 'application.json',
+          'content-type': 'application/json',
         },
         body: jsonEncode(body),
       );
